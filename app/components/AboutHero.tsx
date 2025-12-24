@@ -12,7 +12,7 @@ export default function AboutHero() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="https://oneinflu.b-cdn.net/atlanta.mp4" type="video/mp4" />
+            <source src="https://oneinflu.b-cdn.net/Perth.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="absolute inset-0 bg-black/40" />

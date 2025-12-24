@@ -69,7 +69,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
   const slug = decodeURIComponent(params.slug || '');
   const post = POSTS.find(p => p.slug === slug) || {
     slug,
-    title: 'Atlanta SOC — Operator Insights',
+    title: 'Perth SOC — Operator Insights',
     tag: 'Update',
     date: 'Dec 2025',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop',

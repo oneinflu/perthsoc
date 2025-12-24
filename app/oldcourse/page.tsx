@@ -101,9 +101,9 @@ export default function CoursePage() {
         <div className="container mx-auto max-w-7xl px-6 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-14 items-center">
             <div className="animate-fadein">
-              <div className="uppercase tracking-[0.12em] text-sm text-white/70 mb-2">Course · Atlanta SOC</div>
-              <h1 className="text-white text-5xl md:text-6xl font-bold mb-4">Atlanta SOC: Hands-On SOC Analyst Program</h1>
-              <p className="text-gray-300 text-lg md:text-xl mb-5">12 weeks · Live labs · Placement support — built around Atlanta’s hiring market.</p>
+              <div className="uppercase tracking-[0.12em] text-sm text-white/70 mb-2">Course · Perth SOC</div>
+              <h1 className="text-white text-5xl md:text-6xl font-bold mb-4">Perth SOC: Hands-On SOC Analyst Program</h1>
+              <p className="text-gray-300 text-lg md:text-xl mb-5">12 weeks · Live labs · Placement support — built around Perth’s hiring market.</p>
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <span className="rounded-full bg-white/5 ring-1 ring-white/10 text-white text-sm px-3 py-1 animate-stagger" style={{ animationDelay: '50ms' }}>Duration: 12 weeks</span>
@@ -136,7 +136,7 @@ export default function CoursePage() {
                 </video>
                 <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-black/10" />
                 <button onClick={() => setModalOpen(true)} className="absolute bottom-4 left-4 pointer-events-auto inline-flex items-center h-[36px] px-4 text-sm font-semibold text-white rounded-[18px] bg-blue-600 hover:bg-blue-500">Live lab demo</button>
-                <div className="absolute top-4 right-4 rounded-full bg-white/10 ring-1 ring-white/10 text-white text-xs px-3 py-1 animate-salary-pulse">Avg salary in Atlanta: $78,400</div>
+                <div className="absolute top-4 right-4 rounded-full bg-white/10 ring-1 ring-white/10 text-white text-xs px-3 py-1 animate-salary-pulse">Avg salary in Perth: $78,400</div>
                 <div className="sr-only" aria-hidden="false">Caption: SOC triage across SIEM alerts, demo sample.</div>
               </div>
             </div>
@@ -178,7 +178,7 @@ export default function CoursePage() {
         <div className="container mx-auto max-w-7xl px-6 md:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {[
-              { label: 'Placement rate', value: '86% placed', tip: 'Data: 2024 Atlanta cohort', href: '/sources/placement' },
+              { label: 'Placement rate', value: '86% placed', tip: 'Data: 2024 Perth cohort', href: '/sources/placement' },
               { label: 'Avg salary after program', value: '$78,400', tip: 'Source: BLS & local postings', href: 'https://www.bls.gov/' },
               { label: 'Labs hours', value: '120 hrs hands-on', tip: 'Tracked lab time per learner', href: '/sources/labs' },
               { label: 'Employer interviews', value: '5 interviews', tip: 'Partner guarantee terms apply', href: '/sources/interviews' },
@@ -216,7 +216,7 @@ export default function CoursePage() {
                 <svg viewBox="0 0 24 24" className="h-7 w-7 text-cyan-300" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M3 7h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z" /><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" /></svg>
                 <div className="text-white text-xl font-semibold">Career-first</div>
               </div>
-              <div className="text-gray-300 mb-3">Built for job outcomes with Atlanta-focused roles and hiring patterns.</div>
+              <div className="text-gray-300 mb-3">Built for job outcomes with Perth-focused roles and hiring patterns.</div>
               <ul className="text-gray-300 text-sm space-y-1 mb-5">
                 <li>Resume + interview prep</li>
                 <li>Portfolio-ready projects</li>
@@ -576,7 +576,7 @@ export default function CoursePage() {
         <div className="container mx-auto max-w-7xl px-6 md:px-8">
           <div className="rounded-[24px] ring-1 ring-white/10 bg-white/5 p-10 text-center">
             <div className="text-white text-3xl md:text-4xl font-bold mb-3">Ready to start?</div>
-            <div className="text-gray-300 mb-6">Apply now and join the next Atlanta SOC cohort.</div>
+            <div className="text-gray-300 mb-6">Apply now and join the next Perth SOC cohort.</div>
             <Link href="/contact" className="inline-flex items-center h-[56px] px-10 text-base font-bold text-white rounded-[32px] border-2 border-cyan-300/70 hover:border-cyan-300 transition-colors">Apply for Cohort</Link>
           </div>
         </div>

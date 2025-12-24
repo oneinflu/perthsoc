@@ -8,9 +8,9 @@ export default function AboutOverview() {
       <div className="container mx-auto max-w-7xl px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 items-start">
           <div>
-            <div className="text-white text-3xl md:text-4xl font-bold mb-5">Atlanta’s Security Operations Center vision</div>
-            <p className="text-gray-300 mb-4 leading-relaxed">Atlanta SOC enables practitioners to operate in real environments with the tools, workflows, and skills used by modern teams defending enterprises across the city.</p>
-            <p className="text-gray-300 mb-4 leading-relaxed">We focus on practical mastery: SIEM engineering, detections, threat intelligence, incident response, and threat hunting—aligned to Atlanta’s hiring market and enterprise needs.</p>
+            <div className="text-white text-3xl md:text-4xl font-bold mb-5">Perth’s Security Operations Center vision</div>
+            <p className="text-gray-300 mb-4 leading-relaxed">Perth SOC enables practitioners to operate in real environments with the tools, workflows, and skills used by modern teams defending enterprises across the city.</p>
+            <p className="text-gray-300 mb-4 leading-relaxed">We focus on practical mastery: SIEM engineering, detections, threat intelligence, incident response, and threat hunting—aligned to Perth’s hiring market and enterprise needs.</p>
             <p className="text-gray-300 leading-relaxed">Our approach blends hands-on labs, guided mentoring, and outcome-driven projects to build a strong portfolio and readiness for high-impact roles.</p>
           </div>
           <div className="grid grid-cols-1 gap-5">
@@ -21,7 +21,7 @@ export default function AboutOverview() {
                 </div>
                 <div>
                   <div className="text-white font-semibold">Mission Statement</div>
-                  <div className="text-gray-300 text-sm">Empower organizations with innovative cybersecurity solutions and training that safeguard critical infrastructure and ensure resilience across Atlanta.</div>
+                  <div className="text-gray-300 text-sm">Empower organizations with innovative cybersecurity solutions and training that safeguard critical infrastructure and ensure resilience across Perth.</div>
                 </div>
               </div>
             </div>

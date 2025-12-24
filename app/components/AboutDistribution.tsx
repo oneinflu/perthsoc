@@ -26,7 +26,7 @@ export default function AboutDistribution() {
       <div className="container mx-auto max-w-7xl px-6 md:px-8">
         <div className="text-center mb-10 md:mb-12">
           <div className="text-white text-3xl md:text-4xl font-bold">Setting the Standard in Cybersecurity Distribution</div>
-          <p className="text-gray-300 max-w-4xl mx-auto mt-3">Atlanta SOC bridges the gap between global technology innovators and regional industries, bringing world-class cybersecurity solutions to critical infrastructure across the Southeast and beyond.</p>
+          <p className="text-gray-300 max-w-4xl mx-auto mt-3">Perth SOC bridges the gap between global technology innovators and regional industries, bringing world-class cybersecurity solutions to critical infrastructure across the Southeast and beyond.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">

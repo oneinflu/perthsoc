@@ -253,10 +253,10 @@ function FAQsSection() {
       title: 'Job Market & Salaries',
       icon: 'briefcase',
       items: [
-        { q: 'Are there enough cybersecurity jobs in Atlanta right now?', a: 'Yes. Atlanta is a major tech and enterprise hub with consistent demand across SOC, IR, and Threat roles.' },
-        { q: 'What is the average SOC Analyst salary in Atlanta?', a: 'Typical ranges are $55k–$65k for entry, $70k–$90k for mid, and $95k–$125k for senior, depending on experience and certs.' },
-        { q: 'Which companies in Atlanta hire SOC analysts?', a: 'Common employers include Delta, EY, NCR, Equifax, UPS, Cox, Fiserv, Deloitte, and major MSSPs.' },
-        { q: 'Can I get a remote SOC job from Atlanta?', a: 'Hybrid and remote roles are common, especially with MSSPs and cloud-focused teams.' },
+        { q: 'Are there enough cybersecurity jobs in Perth right now?', a: 'Yes. Perth is a major tech and enterprise hub with consistent demand across SOC, IR, and Threat roles.' },
+        { q: 'What is the average SOC Analyst salary in Perth?', a: 'Typical ranges are $55k–$65k for entry, $70k–$90k for mid, and $95k–$125k for senior, depending on experience and certs.' },
+        { q: 'Which companies in Perth hire SOC analysts?', a: 'Common employers include Delta, EY, NCR, Equifax, UPS, Cox, Fiserv, Deloitte, and major MSSPs.' },
+        { q: 'Can I get a remote SOC job from Perth?', a: 'Hybrid and remote roles are common, especially with MSSPs and cloud-focused teams.' },
       ],
     },
     {
@@ -276,7 +276,7 @@ function FAQsSection() {
       icon: 'shield',
       items: [
         { q: 'Do you assist with job placement?', a: 'Yes. Guidance includes resume curation, interview prep, referrals, and active job matching when available.' },
-        { q: 'Do Atlanta employers accept international/visa candidates?', a: 'Many employers consider OPT/CPT candidates depending on role scope and compliance. Policies vary by company.' },
+        { q: 'Do Perth employers accept international/visa candidates?', a: 'Many employers consider OPT/CPT candidates depending on role scope and compliance. Policies vary by company.' },
         { q: 'Do companies require a degree for SOC roles?', a: 'Not always. Skills, certs, and hands-on practice often outweigh degree requirements, especially for analyst tracks.' },
         { q: 'How long does it take to get hired after completing the course?', a: 'Varies by learner. Typical timelines range from 4–12 weeks with focused applications and portfolio proof.' },
       ],
@@ -298,7 +298,7 @@ function FAQsSection() {
 
       <div className="container mx-auto max-w-7xl px-6 md:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-white text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions — Atlanta</h2>
+          <h2 className="text-white text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions — Perth</h2>
           <p className="text-gray-300 max-w-3xl mx-auto">Answers grouped by topic to help you scan quickly and get confident about next steps.</p>
         </div>
 
@@ -384,7 +384,7 @@ function WhatIsSOCSection() {
       <div className="container mx-auto max-w-7xl px-6 md:px-8">
         <div className="text-center mb-10">
           <div className="text-white text-3xl md:text-4xl font-bold">What is a Security Operations Center (SOC)?</div>
-          <p className="text-gray-300 max-w-3xl mx-auto mt-3">A SOC is the mission control hub of cybersecurity — where experts monitor, detect, investigate, and respond to threats 24/7. At Atlanta SOC, we help you master every skill needed to become a world-class cyber defender.</p>
+          <p className="text-gray-300 max-w-3xl mx-auto mt-3">A SOC is the mission control hub of cybersecurity — where experts monitor, detect, investigate, and respond to threats 24/7. At Perth SOC, we help you master every skill needed to become a world-class cyber defender.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mb-16">
@@ -472,7 +472,7 @@ export default function Home() {
             playsInline
             className="h-full w-full object-cover"
           >
-            <source src="https://oneinflu.b-cdn.net/atlanta.mp4" type="video/mp4" />
+            <source src="https://northstaracademy.b-cdn.net/northstaracademy/perth.mp4" type="video/mp4" />
           </video>
           {/* Dark Overlay Gradient */}
           <div className="absolute inset-0 bg-black/60"></div>
@@ -484,7 +484,7 @@ export default function Home() {
           <div className="max-w-4xl md:mb-20 md:mt-20 mb-10 mt-10">
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl md:text-[64px] font-bold leading-tight md:leading-[1.1] text-white mb-6">
-              Master the Art of Cyber Defense with Atlanta SOC.
+              Master the Art of Cyber Defense with Perth SOC.
             </h1>
 
             {/* Subheadline */}
@@ -581,7 +581,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-start justify-between gap-6">
               <div className="w-full md:w-3/4 md:pr-8">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-                 Launch a High-Income <br /> Cybersecurity Career with Atlanta SOC
+                 Launch a High-Income <br /> Cybersecurity Career with Perth SOC
                 </h2>
               </div>
               <div className="w-full md:w-1/4 md:pl-8">
@@ -694,8 +694,8 @@ export default function Home() {
 
         <div className="container mx-auto max-w-7xl px-6 md:px-8">
           <div className="text-center">
-            <h2 className="text-white text-4xl md:text-5xl font-bold mb-8">Cyber careers in Atlanta — the facts</h2>
-            <p className="text-gray-300 max-w-3xl mx-auto">Atlanta is one of the fastest-growing security job hubs in the U.S. Here’s what the numbers say.</p>
+            <h2 className="text-white text-4xl md:text-5xl font-bold mb-8">Cyber careers in Perth — the facts</h2>
+            <p className="text-gray-300 max-w-3xl mx-auto">Perth is one of the fastest-growing security job hubs in the U.S. Here’s what the numbers say.</p>
           </div>
 
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
@@ -719,7 +719,7 @@ export default function Home() {
                 <path d="M7 12h10M7 8h6" />
               </svg>
               <div className="text-white text-3xl md:text-4xl font-bold tracking-tight"><span className="group-hover:kpi-pulse">$78,400</span></div>
-              <div className="text-gray-300 mt-2 text-sm md:text-base">Avg SOC Analyst salary (Atlanta)</div>
+              <div className="text-gray-300 mt-2 text-sm md:text-base">Avg SOC Analyst salary (Perth)</div>
             </div>
             <div className="group rounded-[20px] ring-1 ring-white/10 bg-white/5 backdrop-blur-sm p-6 md:p-8 text-center transition-all hover:scale-[1.02] hover:ring-cyan-300/40 hover:shadow-[0_0_24px_rgba(0,200,255,0.35)]">
               <svg viewBox="0 0 24 24" className="mx-auto mb-3 h-8 w-8 text-white/80" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">

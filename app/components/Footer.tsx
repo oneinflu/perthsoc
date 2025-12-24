@@ -13,9 +13,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <div className="w-8 h-8 mr-2 rounded-full bg-blue-500"></div>
-              <span className="text-white font-bold text-lg">ATLANTA SOC</span>
+              <span className="text-white font-bold text-lg">Perth SOC</span>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">Protecting today’s systems, powering tomorrow’s vision. Training, solutions, and career pathways for Atlanta.</p>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">Protecting today’s systems, powering tomorrow’s vision. Training, solutions, and career pathways for Perth.</p>
             <div className="flex items-center gap-3">
               <a href="https://twitter.com" aria-label="Twitter" className="text-white/80 hover:text-white">
                 <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor"><path d="M22 5.92c-.75.33-1.56.56-2.41.66a4.17 4.17 0 0 0 1.83-2.3 8.32 8.32 0 0 1-2.64 1 4.15 4.15 0 0 0-7.07 3.78A11.78 11.78 0 0 1 3.15 4.67a4.15 4.15 0 0 0 1.28 5.54c-.64-.02-1.24-.2-1.76-.5v.05a4.15 4.15 0 0 0 3.33 4.06c-.3.08-.62.12-.95.12-.23 0-.46-.02-.68-.06a4.15 4.15 0 0 0 3.87 2.88A8.33 8.33 0 0 1 2 19.55a11.76 11.76 0 0 0 6.36 1.86c7.63 0 11.81-6.32 11.81-11.81v-.54A8.45 8.45 0 0 0 22 5.92Z"/></svg>
@@ -52,7 +52,7 @@ export default function Footer() {
             <div className="text-white font-semibold mb-3">Resources</div>
             <ul className="space-y-2 text-gray-300">
               <li><Link href="/" className="hover:text-white">Career Paths</Link></li>
-              <li><Link href="/" className="hover:text-white">Salaries (Atlanta)</Link></li>
+              <li><Link href="/" className="hover:text-white">Salaries (Perth)</Link></li>
               <li><Link href="/" className="hover:text-white">Docs & Guides</Link></li>
               <li><Link href="/" className="hover:text-white">Support</Link></li>
             </ul>
@@ -70,7 +70,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container mx-auto max-w-7xl px-6 md:px-8 py-6 flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="text-gray-400 text-sm">© {new Date().getFullYear()} Atlanta SOC. All rights reserved.</div>
+          <div className="text-gray-400 text-sm">© {new Date().getFullYear()} Perth SOC. All rights reserved.</div>
           <div className="mt-3 md:mt-0 flex gap-4 text-gray-300 text-sm">
             <Link href="/" className="hover:text-white">Privacy</Link>
             <Link href="/" className="hover:text-white">Terms</Link>

@@ -43,7 +43,7 @@ const Header = () => {
                 className="object-cover"
               />
             </div>
-            <div className="text-white font-bold text-lg">ATLANTA SOC</div>
+            <div className="text-white font-bold text-lg">Perth SOC</div>
           </div>
         </Link>
 

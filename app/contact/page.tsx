@@ -11,8 +11,8 @@ export default function ContactPage() {
 
   const sendMail = (e: React.FormEvent) => {
     e.preventDefault();
-    const to = 'contact@atlanta-soc.com';
-    const subject = `New inquiry from ${name || 'Atlanta SOC website'}`;
+    const to = 'contact@Perth-soc.com';
+    const subject = `New inquiry from ${name || 'Perth SOC website'}`;
     const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`;
     const mailto = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-white font-semibold">Address</div>
-                    <div>Atlanta, GA</div>
+                    <div>Perth, GA</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -92,7 +92,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-white font-semibold">Email</div>
-                    <div><a href="mailto:contact@atlanta-soc.com" className="hover:text-white">contact@atlanta-soc.com</a></div>
+                    <div><a href="mailto:contact@Perth-soc.com" className="hover:text-white">contact@Perth-soc.com</a></div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

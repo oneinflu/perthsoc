@@ -36,8 +36,8 @@ export default function AboutWhy() {
       <div className="absolute inset-0 -z-10 about-why-grid"></div>
       <div className="container mx-auto max-w-7xl px-6 md:px-8">
         <div className="text-center mb-8 md:mb-10">
-          <div className="text-white text-3xl md:text-4xl font-bold">Why Atlanta SOC?</div>
-          <div className="text-gray-300 max-w-5xl mx-auto mt-3">Your partner in critical infrastructure security and high‑performance computing. We bridge the gap between global technology innovators and regional industries, delivering world‑class cybersecurity solutions tailored to Atlanta and beyond.</div>
+          <div className="text-white text-3xl md:text-4xl font-bold">Why Perth SOC?</div>
+          <div className="text-gray-300 max-w-5xl mx-auto mt-3">Your partner in critical infrastructure security and high‑performance computing. We bridge the gap between global technology innovators and regional industries, delivering world‑class cybersecurity solutions tailored to Perth and beyond.</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
           {items.map((it) => (

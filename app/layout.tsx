@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Atlanta SOC",
-  description: "Engineering cybersecurity training and solutions in Atlanta. Protecting critical infrastructure and operational technology.",
+  title: "Perth SOC",
+  description: "Engineering cybersecurity training and solutions in Perth. Protecting critical infrastructure and operational technology.",
 };
 
 export default function RootLayout({
