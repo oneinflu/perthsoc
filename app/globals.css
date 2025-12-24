@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0B0F14;
+  --surface: #111827;
+  --accent: #00D8FF;
+  --accent-muted: #1fb6aa;
+  --headline: #F9FAFB;
+  --body: #CBD5E1;
+  --muted: #64748B;
+
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-micro: 0.16s;
+  --dur-section: 0.5s;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--body);
+  --color-surface: var(--surface);
+  --color-accent: var(--accent);
+  --color-accent-muted: var(--accent-muted);
+  --color-headline: var(--headline);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--body);
+  font-family: var(--font-inter), system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 { color: var(--headline); font-weight: 600; }
+
+.tabular { font-variant-numeric: tabular-nums; }
+.surface { background-color: var(--surface); }
+.text-muted { color: var(--muted); }
+
+.ease-lux { transition-timing-function: var(--ease-lux); }
+.dur-micro { transition-duration: var(--dur-micro); }
+.dur-section { transition-duration: var(--dur-section); }
